@@ -14,7 +14,6 @@ export const ContactForm = ({ onSubmit }) => {
     setNumber('');
   };
 
-  
   return (
     <Form onSubmit={handleSubmit}>
       <Label>Name</Label>
